@@ -1,0 +1,56 @@
+.tasks-container {
+    background-color: #fff;
+    padding: 15px 18px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.task {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    user-select: none; 
+}
+
+.task:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.task .title {
+    padding-left: 12px;
+    font-size: 14px;
+    flex-grow: 1;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+}
+
+.task__icon {
+    font-weight: bold;
+    color: #555;
+}
+
+.task .check__icon {
+    color: #45ff7a;
+}
+
+.task .trash__icon {
+    font-size: 18px;
+    color: #fb6767;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.task .trash__icon:hover {
+    color: #ff2f2f;
+}
+
+.message {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    font-style: italic;
+}

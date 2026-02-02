@@ -1,0 +1,39 @@
+.container {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+.tasks__input {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.tasks__input::placeholder {
+    color: #888;
+}
+
+.tasks__button {
+    background-color: #3a59ca;
+    padding: 10px 14px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tasks__button:hover {
+    background-color: #566fc7;
+}
